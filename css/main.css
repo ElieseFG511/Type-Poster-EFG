@@ -1,0 +1,72 @@
+/* background: url() no repeat, 50% 50%; is to get a
+background image that doesn't repeat and is centered*/
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+	background: url(../img/background.jpg) no-repeat, 50% 50%;
+	background-size: cover;
+	background-position: 25% 25%;
+	background-color: #544645;
+}
+
+/* main is off center please fix, you know you won't... let's make this look good at least
+...
+...
+...
+never mind you fixed it */
+
+main {
+	text-align: left;
+	font-size: 2rem;
+	border: dashed .1rem;
+	box-shadow: 0 0 0 .5rem #6d3e34;
+	width: 50%;
+	color: #bed4ec;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 1.5rem;
+	font-family: 'Lato', sans-serif;
+	background: #6d3e34;
+	margin: 0 auto;
+	margin-top: 6rem;
+	margin-bottom: 1.5rem;
+	padding: 4rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: right;
+	font-size: 1.3rem;
+	padding: 1rem;
+	color: #bed4ec;
+	border-top: double 15px;
+	border-color: #bed4ec;
+}
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: .75rem;
+	border: 2px dashed;
+	border-color: #6d3e34;
+	box-shadow: 0 0 0 .4rem #69a0da;
+	width: 30%;
+	text-align: center;
+	color: #221a17;
+	margin: 0 auto;
+	padding: .8rem 1rem .8rem 1rem;
+	background-color: #69a0da
+}
+
+footer p {
+	border-top: double 10px #6d3e34;
+	border-bottom: double 10px #6d3e34;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+
+ a {
+	font-family: 'Lato', sans-serif;
+	color: #642214;
+}
